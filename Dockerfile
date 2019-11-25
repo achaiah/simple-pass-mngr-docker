@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk11:alpine-slim
 
-ENV SPM_VER 1.7.2
+ENV SPM_VER 1.7.6
 RUN apk --update add less unzip wget nano bash && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
