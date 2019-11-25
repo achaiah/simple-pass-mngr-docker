@@ -5,7 +5,7 @@ RUN apk --update add less unzip wget nano bash && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
     
-RUN wget https://github.com/rnentjes/simple-password-manager/releases/download/1.7.2/spm-$SPM_VER.zip && \
+RUN wget https://github.com/rnentjes/simple-password-manager/releases/download/$SPM_VER/spm-$SPM_VER.zip && \
 	unzip spm-$SPM_VER.zip && \
 	rm -rf spm-$SPM_VER.zip
 
