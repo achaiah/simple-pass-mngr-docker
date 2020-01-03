@@ -1,7 +1,7 @@
 # simple-pass-mngr-docker
 Dockerized version of the awesome [simple password manager](https://github.com/rnentjes/simple-password-manager)!
 
-This is based off a slim version of JRE11 on alpine linux. Prebuild container can be found on [dockerhub](https://hub.docker.com/r/achaiah/simple-password-manager) or you can build it yourself using the Dockerfile.
+This is based off a slim version of JRE11 on alpine linux. Prebuilt container can be found on [dockerhub](https://hub.docker.com/r/achaiah/simple-password-manager) or you can build it yourself using the Dockerfile.
 
 Current docker container will download and run v1.7.6 of SPM but you can change that by adjusting the variable `SPM_VER` inside the Dockerfile.
 
